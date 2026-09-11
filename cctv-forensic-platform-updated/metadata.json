@@ -1,0 +1,6 @@
+{
+  "name": "CCTV Forensic Platform",
+  "description": "Forensic video analysis platform featuring case management, CCTV GIS registry, SHA-256 evidence integrity hashing, frame-by-frame analysis, chain of custody audit logs, recovery module, AI detection inspector, and real-time backend API diagnostic suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

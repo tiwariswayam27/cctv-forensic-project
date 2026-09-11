@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #000000;
+    color: #f4f4f6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Space Grotesk', 'Syne', sans-serif;
+  }
+
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Cyber Samurai Grid & Background Texture matching Digital Kensei aesthetic */
+.bg-cyber-grid {
+  background-size: 36px 36px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+.bg-cyber-grid-red {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(239, 35, 60, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(239, 35, 60, 0.07) 1px, transparent 1px);
+}
+
+.bg-cyber-dots {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Red Neon Glow & Border Accents */
+.border-crimson {
+  border-color: #ef233c;
+}
+
+.shadow-crimson-glow {
+  box-shadow: 0 0 25px -4px rgba(239, 35, 60, 0.35);
+}
+
+.shadow-crimson-subtle {
+  box-shadow: 0 0 12px 0 rgba(239, 35, 60, 0.18);
+}
+
+.text-crimson {
+  color: #ef233c;
+}
+
+.bg-crimson {
+  background-color: #ef233c;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ef233c;
+}
